@@ -84,8 +84,8 @@ Apex is a strongly types language → every variable has to be declared with the
 ## [Apex Collections](https://developer.salesforce.com/docs/atlas.en-us.224.0.apexcode.meta/apexcode/langCon_apex_collections.htm): 
 
 ### [List](https://developer.salesforce.com/docs/atlas.en-us.224.0.apexcode.meta/apexcode/langCon_apex_collections_lists.htm)
-Lists holds an ordered collection of objects.   
-__Lists in Apex are synonymous with arrays__ and the two can be used interchangeably.
+Lists holds an __ordered__ collection of objects.      
+ So __Lists in Apex are synonymous with arrays__ and the two can be used interchangeably. However creating list is easier than arrays.
  
 - To declare a list, use the `List` keyword followed by the primitive data, sObject, nested list, map, or __set type within `<>` characters__.
 - eg.:    
@@ -166,7 +166,9 @@ __Lists in Apex are synonymous with arrays__ and the two can be used interchange
   //listOfNumbers(1,2,3,3,1)
   ```
 
-### [Set]() = arrays.   
+### [Sets]()    
+A set is an __unordered__ collection of elements that do not contain any duplicates. Set elements can be of any data type—primitive types, collections, sObjects, user-defined types, and built-in Apex types.
+
   Declaring a `Set`:   
   `Set<Integer> setOfNumbers = new Set<Integer>();`
    (Set<TYPE> VARIABLENAME = OPERATOR;) 
