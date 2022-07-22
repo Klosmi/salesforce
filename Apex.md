@@ -119,11 +119,11 @@ eg.:
   ```
 
 - MAP  
-  we define datatype four 2 different element.
-  `Map< key, vlaue> variable = new Map< key, value>();`
-eg.:   
- *`.put()` method importing the value and the key.*   
- *For the `3` key we have a value `three` and a value `four`, therfore `three` is overwritten by `four`*   
+  we define datatype four 2 different element.    
+  `Map< key, value> variable = new Map< key, value>();`    
+eg.:       
+ *`.put()` method importing the value and the key.*      
+ *For the `3` key we have a value `three` and a value `four`, therfore `three` is overwritten by `four`*     
   ```
   Map<Integer, String> mapOfIntegerString = new Map<Integer, String>();
     mapOfIntegerString.put(1, 'one');
@@ -134,7 +134,7 @@ eg.:
   System.debug('Value at 3: ' + mapOfIntegerString.get(3);
 
   // mapOfIntegerString: {1=one, 2=two, 3=four}
-  // Value at: 3: four
+  // Value at: 3: four  
   ```
 
 
