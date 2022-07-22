@@ -10,7 +10,13 @@ Apex is a programming language that uses Java-like syntax and acts like database
 - Database statements that allow you to make direct database calls and query languages to query and search data.
 - The global access modifier, which is more permissive than the public modifier and allows access across namespaces and applications.
 
+
+---
+
 <br>
+
+👈[back to tcontents](https://github.com/Klosmi/salesforce/blob/main/README.md#apex)
+
 
 ## [Data Types Overview](https://www.tutorialspoint.com/apex/apex_data_types.htm)    
 Apex is a strongly types language → every variable has to be declared with the specific data type.   
@@ -79,7 +85,12 @@ Apex is a strongly types language → every variable has to be declared with the
         public enum Season {WINTER, SPRING, SUMMER, FALL}
         ```
 
+---
+
 <br>
+
+👈[back to tcontents](https://github.com/Klosmi/salesforce/blob/main/README.md#apex)
+
 
 ## [Apex Collections](https://developer.salesforce.com/docs/atlas.en-us.224.0.apexcode.meta/apexcode/langCon_apex_collections.htm): 
 
@@ -170,6 +181,12 @@ Lists holds an __ordered__ collection of objects.
     System.assertEquals(color1,color2);
     ```
 
+---
+
+<br>
+
+👈[back to tcontents](https://github.com/Klosmi/salesforce/blob/main/README.md#apex)
+
 ### [Sets]()    
 A set is an __unordered__ collection of elements that do not contain any duplicates. Set elements can be of any data type—primitive types, collections, sObjects, user-defined types, and built-in Apex types.
 
@@ -209,6 +226,11 @@ eg.:
   // Value at: 3: four  
   ```
 
+---
+
+<br>
+
+👈[back to tcontents](https://github.com/Klosmi/salesforce/blob/main/README.md#apex)	
 
 ## [Apex Classes](https://www.salesforcetutorial.com/apex-class/)
 it is a blueprint (template) from which objects are created.   
@@ -253,14 +275,22 @@ modifiers specifies the accessibility or scope of a field, method, constructor, 
     ```
   - `Anonymous Apex` allows you to run lines of code on the fly and is a handy way to invoke Apex, especially to test out functionality. 
 
+---
+
 <br>
+
+👈[back to tcontents](https://github.com/Klosmi/salesforce/blob/main/README.md#apex)
 
 ## Inspect Debug Logs
 Debug logs are useful for debugging your code. 
 
 - `sendMail()` called the `inspectResults()` helper method, which writes messages to the log by using the `System.debug()` method to indicate whether the email send operation was successful or not.
 
+---
+
 <br>
+
+👈[back to tcontents](https://github.com/Klosmi/salesforce/blob/main/README.md#apex)
 
 ## Call a Static Method
 
@@ -291,11 +321,11 @@ By adding the `static` method to its declaration, because `static` methods are e
   }
   ```   
 
-<br>
-
-<br>
-
 ---
+
+<br>
+
+👈[back to tcontents](https://github.com/Klosmi/salesforce/blob/main/README.md#apex)
 
 ## [Keywords in Apex](https://www.salesforcetutorial.com/static-final-this-super-keywords-in-apex/)
 
@@ -338,11 +368,14 @@ If we declare a class as a `without sharing`, then this Apex class runs in syste
     }
     ```
 
+---
 
 <br>
 
+👈[back to tcontents](https://github.com/Klosmi/salesforce/blob/main/README.md#apex)
 
-# Iterating Collections
+
+## Iterating Collections
 
 - Do While loop
 - While loop
@@ -465,15 +498,27 @@ class ClassName [implements InterfaceNameList][extends ClassName]
   d1.printOutput('Hello!');
   ```
 
+	---
 
-# Object
+<br>
+
+👈[back to tcontents](https://github.com/Klosmi/salesforce/blob/main/README.md#apex)
+
+## Object
 an object is an instance of a class *i.e. a class in action*
 - object = instance
 - instantiation: the way, a process as a class turn into an instance   
   - `MyClass m1 = new MyClass();` (MyClass = datatype | m1 = variable)  
   - Once we created a class, the `new` keyword tells to the APex runtime, that "you need to allocate memory for that class".
 
-# Methods
+
+	---
+
+<br>
+
+👈[back to tcontents](https://github.com/Klosmi/salesforce/blob/main/README.md#apex)
+
+## Methods
 reusable code snippets, which have a specific purpose (usually a single job: like adding together numbers)
 
 - defining a method:    
@@ -496,7 +541,13 @@ reusable code snippets, which have a specific purpose (usually a single job: lik
       }
     ```
 
-# Static vs Instance variables and methods
+---
+
+<br>
+
+👈[back to tcontents](https://github.com/Klosmi/salesforce/blob/main/README.md#apex)	
+	
+## Static vs Instance variables and methods
 static variables and methods:
 - class based: meaning that as soon as a class is loaded in the Apex runtime, the class variables and methods will allocate a memory (no `new` keyword).
 - not replacable: only exist once/class
@@ -561,7 +612,13 @@ Hello Miklos
 Display from static method
 ```
 
-# Pasing by Value vs Passing by Reference
+---
+
+<br>
+
+👈[back to tcontents](https://github.com/Klosmi/salesforce/blob/main/README.md#apex)
+	
+## Pasing by Value vs Passing by Reference
 When we ass input paramteres to methods, there are 2 ways.
 
 __Pass by Value__
