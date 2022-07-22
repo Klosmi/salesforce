@@ -243,6 +243,48 @@ By adding the `static` method to its declaration, because `static` methods are e
 
 ---
 
+## [Keywords in Apex](https://www.salesforcetutorial.com/static-final-this-super-keywords-in-apex/)
+
+- [Final](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_classes_keywords_final.htm)   
+   This keyword is used to modify variables and give it a constant value.    
+   To define a constant, mark a variable as both static and final (so use both keywords: static final).        
+   This keyword is used to Defines constants and methods that can’t be overridden.   
+
+   *INT_CONST is a variable initialized its value to 10.*    
+   *This means that this INT_CONST variable will be 10 throughout the program. (Can't be overwritten.)*
+   ```
+   public class myClass {
+    static final Integer INT_CONST = 10;
+   }
+   ```
+
+- [Return](https://stackoverflow.com/questions/14847524/how-to-exit-an-apex-function) 
+  This keyword is used to return a value from a method.   
+
+    *After the `return` keyword the variable whose value we want to return.*  
+    ```
+    public String getName() {
+        return 'Name';
+    }
+    ```
+
+- [With sharing](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_classes_keywords_sharing.htm)    
+If we declare a class as a `with sharing`, __[Sharing rules](https://www.tutorialkart.com/salesforce/sharing-rules-salesforce-salesforce-security/)__ given to the current user will be taken into the consideration and the user can access or perform the operations based on the permissions given to him on object and fields (Field Level Security, Sharing rules).
+    ```
+    public with sharing class MyApexClass {
+        //statement(s)
+    }
+    ```
+
+- [Without sharing](https://www.tutorialkart.com/apex_soql/apex-access-modifiers-with-sharing-without-sharing/)    
+If we declare a class as a `without sharing`, then this Apex class runs in system mode which means Apex code has access to all the objects and field irrespective of current users sharing rules, [field level security](https://www.tutorialkart.com/salesforce/salesforce-security-field-level-security-admin-tutorials/) and Object permissions.    
+    ```
+    public without sharing noSharing{
+        //statement(s)
+    }
+    ```
+
+
 <br>
 
 # Data Types, Lists, arrays
