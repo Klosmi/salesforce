@@ -119,7 +119,7 @@ eg.:
   ```
 
 - MAP  
-  we define datatype four 2 different element.    
+  we define datatype four 2 different elements.    
   `Map< key, value> variable = new Map< key, value>();`    
 eg.:       
  *`.put()` method importing the value and the key.*      
