@@ -239,54 +239,7 @@ eg.:
 
 👈[back to contents](https://github.com/Klosmi/salesforce/blob/main/README.md#apex)	
 
-## [Apex Classes](https://www.salesforcetutorial.com/apex-class/)
-it is a blueprint (template) from which objects are created.   
-One of the benefits of Apex classes is code reuse.   
-*An object is an instance of a class.*  
 
-A class can contain: 
-- variables: 
-    - specifies the state of an object (object's name, object's type)
-    - since they qre qssociqted with class (they are members of it) → member variables
-- methods
-
-*creating a simple class:*   
-`class` keyword + `name`
-```
-public class MyApexClass {
-    public static void MyApexMethod() {
-        system.debug('Hello World');
-    }
-}
-```
-
-- [top level class](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_classes_defining.htm): an outer class
-- [inner class](https://www.levelupsalesforce.com/salesforce-inner-class): inside of the outer class
-- mandatory to use [access modifiers](https://www.javatpoint.com/access-modifiers):    
-modifiers specifies the accessibility or scope of a field, method, constructor, or class.   
- We can change the access level of fields, constructors, methods, and class by applying the access modifier on it.   
- In Apex for a declaration of a class we have to use __public__, __global__, __private__.
-
- - not necessary to use access modifiers in the declaration of the inner classes
- __Save an Apex Class__
-
-  *A trigger generally causes a program routine to be executed.*
-
-  Notes: 
-  -  public method `sendMail()` that sends email and uses built-in Messaging methods of the Apex class library
-  - this class has a private helper method `inspectResults()`, which can’t be called externally because it is private but is used only within the class
-
-  - Create an email message object
-    ```
-    Messaging.SingleEmailMessage mail = new Messaging.SingleEmailMessage();
-    ```
-  - `Anonymous Apex` allows you to run lines of code on the fly and is a handy way to invoke Apex, especially to test out functionality. 
-
----
-
-<br>
-
-👈[back to contents](https://github.com/Klosmi/salesforce/blob/main/README.md#apex)
 
 ## Inspect Debug Logs
 Debug logs are useful for debugging your code. 
@@ -502,21 +455,64 @@ It is __guaranteed to execute at least one time__.
 <br>
 
 👈[back to contents](https://github.com/Klosmi/salesforce/blob/main/README.md#apex)
-	
 
-## [Class](https://www.youtube.com/watch?v=TCxOlvxT8l4)
-user defined datatype, acts as a blueprint for their instances
-It is constracted by 3 parts:
+## [Apex Classes](https://www.salesforcetutorial.com/apex-class/)
+it is a blueprint (template) from which objects are created.   
+One of the benefits of Apex classes is code reuse.   
+*An object is an instance of a class.*  
+	
+Class is constracted by 3 parts:
 - constructor - used for memory allocation and initialization
 - state - member __variables__(they define the state)
 - behaviour - memeber functions/methods (they define the behaviour)  
 
+A class can contain: 
+- variables: 
+    - specifies the state of an object (object's name, object's type)
+    - since they qre qssociqted with class (they are members of it) → member variables
+- methods
+
+*creating a simple class:*   
+`class` keyword + `name`   
+like:   	
 ```
 class ClassName [implements InterfaceNameList][extends ClassName]
 {
   //body of the class
 }
 ```
+eg.:  
+```
+public class MyApexClass {
+    public static void MyApexMethod() {
+        system.debug('Hello World');
+    }
+}
+```
+
+- [top level class](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_classes_defining.htm): an outer class
+- [inner class](https://www.levelupsalesforce.com/salesforce-inner-class): inside of the outer class
+- mandatory to use [access modifiers](https://www.javatpoint.com/access-modifiers):    
+modifiers specifies the accessibility or scope of a field, method, constructor, or class.   
+ We can change the access level of fields, constructors, methods, and class by applying the access modifier on it.   
+ In Apex for a declaration of a class we have to use __public__, __global__, __private__.
+
+ - not necessary to use access modifiers in the declaration of the inner classes
+ __Save an Apex Class__
+
+  *A [trigger]() generally causes a program routine to be executed.*
+
+  Notes: 
+  -  public method `sendMail()` that sends email and uses built-in Messaging methods of the Apex class library
+  - this class has a private helper method `inspectResults()`, which can’t be called externally because it is private but is used only within the class
+
+  - Create an email message object
+    ```
+    Messaging.SingleEmailMessage mail = new Messaging.SingleEmailMessage();
+    ```
+  - `Anonymous Apex` allows you to run lines of code on the fly and is a handy way to invoke Apex, especially to test out functionality. 
+
+
 - class access specifier:
 `private | public | global` 
   - private: can be accessed locally, can be only accessed by the member function of the same class
@@ -525,7 +521,8 @@ class ClassName [implements InterfaceNameList][extends ClassName]
 
 - class can not run by itself. We need a sort of invocation method to run it.   
   `classTypeName variableName =  new classTypeName()`   
-  `new classType()` invokes the cunstructor of a class.   
+  `new classType()` invokes the cunstructor of a class.  
+	
 - eg.: 
   ```
   public class Demo1 {
@@ -533,10 +530,10 @@ class ClassName [implements InterfaceNameList][extends ClassName]
       // adding a method
       public void printOutput(String stringToDisplay) {
           System.debug('Display text: '+ stringToDisplay);
-      } 
-      
+      }    
   }
   ```
+	
   *intitalizing*
   ```
   Demo1 d1 = new Demo1();
@@ -546,7 +543,8 @@ class ClassName [implements InterfaceNameList][extends ClassName]
   d1.printOutput('Hello!');
   ```
 
-	---
+[useful video]((https://www.youtube.com/watch?v=TCxOlvxT8l4))
+---
 
 <br>
 
