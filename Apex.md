@@ -312,17 +312,19 @@ By adding the `static` method to its declaration, because `static` methods are e
     }
     ```
 
-When the method return type is void, the method does not return a value. To return a value, replace void with a different return type. 
-For example, here, the wilt method expects a return (response) value that’s an integer.	
-     ```	
-     //1    public static Integer wilt(Integer numberOfPetals){*
-     //2      if(numberOfPetals >= 1){
-     //3         numberOfPetals--;
-     //4      }
-     //5      return numberOfPetals;
-     //6    }
-     ```	
-	In line 1, the keyword Integer (immediately after public static) indicates that the method returns a value that’s an integer. Line 5 uses the return keyword, followed by the numberOfPetals variable name, to return the resulting numberOfPetals value. When a method returns a variable value, the variable data type must match the return type that the method declared. In this case, the wilt method is expected to return an integer value and the numberOfPetals variable is an integer. 
+	- *(When the method return type is `void`, the method does not return a value. To return a value, replace void with a different return type.)* 
+	For example, here, the wilt method expects a `return` (response) value that’s an integer.	     
+	     ```	
+	     //1    public static Integer wilt(Integer numberOfPetals){
+	     //2      if(numberOfPetals >= 1){
+	     //3         numberOfPetals--;
+	     //4      }
+	     //5      return numberOfPetals;
+	     //6    }
+	     ```	
+	- In line 1, the keyword `Integer` (immediately after `public static`) indicates that the method returns a value that’s an integer.     
+	Line 5 uses the `return` keyword, followed by the `numberOfPetals` variable name, to return the resulting `numberOfPetals` value.      
+	When a method returns a variable value, the variable data type must match the return type that the method declared. In this case, the `wilt` method is expected to return an integer value and the `numberOfPetals` variable is an integer. 
 
 
 - [With sharing](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_classes_keywords_sharing.htm)    
