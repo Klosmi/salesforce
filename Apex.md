@@ -98,21 +98,35 @@ __Lists in Apex are synonymous with arrays__ and the two can be used interchange
     }
     ```
 
-## [Apex Classes](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_classes_defining.htm)
-One of the benefits of Apex classes is code reuse.
+## [Apex Classes](https://www.salesforcetutorial.com/apex-class/)
+it is a blueprint (template) from which objects are created.   
+One of the benefits of Apex classes is code reuse.   
+*An object is an instance of a class.*  
 
-We can define top-level classes (also called outer classes) as well as inner classes, that is, a class defined within another class
-- eg.:   
-  ```
-  public class myOuterClass {
-  // Additional myOuterClass code here
-    
-    class myInnerClass {
-    // myInnerClass code here
-    
+A class can contain: 
+- variables: 
+    - specifies the state of an object (object's name, object's type)
+    - since they qre qssociqted with class (they are members of it) → member variables
+- methods
+
+*creating a simple class:*   
+`class` keyword + `name`
+```
+public class MyApexClass {
+    public static void MyApexMethod() {
+        system.debug('Hello World');
     }
-  }
-  ```
+}
+```
+
+- [top level class](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_classes_defining.htm): an outer class
+- [inner class](https://www.levelupsalesforce.com/salesforce-inner-class): inside of the outer class
+- mandatory to use [access modifiers](https://www.javatpoint.com/access-modifiers):    
+modifiers specifies the accessibility or scope of a field, method, constructor, or class.   
+ We can change the access level of fields, constructors, methods, and class by applying the access modifier on it.   
+ In Apex for a declaration of a class we have to use __public__, __global__, __private__.
+
+ - not necessary to use access modifiers in the declaration of the inner classes
  __Save an Apex Class__
 
   *A trigger generally causes a program routine to be executed.*
