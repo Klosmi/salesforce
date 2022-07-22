@@ -80,6 +80,64 @@ Apex is a strongly types language → every variable has to be declared with the
 
 <br>
 
+# Data Types, Lists, arrays
+
+- a String in a method is with sing quotation marks `''`   
+eg.: 
+`System.debug('Hello');`
+
+- List  
+  ```
+  List<Integer> listOfNumbers = new List<Integer>();
+	  listOfNumbers.add(1);
+	  listOfNumbers.add(2);
+	  listOfNumbers.add(3);
+	  listOfNumbers.add(3);
+	  listOfNumbers.add(1);
+  System.debug('listOfNumbers' + listOfNumbers);
+
+  // output:
+  //listOfNumbers(1,2,3,3,1)
+  ```
+
+- Set = arrays.   
+  Declaring a `Set`:   
+  `Set<Integer> setOfNumbers = new Set<Integer>();`
+   (Set<TYPE> VARIABLENAME = OPERATOR;) 
+  eg.:  
+  ```
+  Set<Integer> setOfNumbers = new Set<Integer>();
+    setOfNumbers.add(3);
+    setOfNumbers.add(2);
+    setOfNumbers.add(2);
+    setOfNumbers.add(1);
+
+  System.debug('setOfNumbers: ' + setOfNumbers);
+
+  // output:
+  //setOfNumbers {1,2,3}  //doesn't put the two 2 twice, and it puts the numbers in order 
+  ```
+
+- MAP  
+  we define datatype four 2 different element.
+  `Map< key, vlaue> variable = new Map< key, value>();`
+eg.:   
+ *`.put()` method importing the value and the key.*   
+ *For the `3` key we have a value `three` and a value `four`, therfore `three` is overwritten by `four`*   
+  ```
+  Map<Integer, String> mapOfIntegerString = new Map<Integer, String>();
+    mapOfIntegerString.put(1, 'one');
+    mapOfIntegerString.put(2, 'two');
+    mapOfIntegerString.put(3, 'three');
+    mapOfIntegerString.put(3, 'four');
+  System.debug('mapOfIntegerString: ' + mapOfIntegerString);
+  System.debug('Value at 3: ' + mapOfIntegerString.get(3);
+
+  // mapOfIntegerString: {1=one, 2=two, 3=four}
+  // Value at: 3: four
+  ```
+
+
 ## [Apex Collections](https://developer.salesforce.com/docs/atlas.en-us.224.0.apexcode.meta/apexcode/langCon_apex_collections.htm): 
 
 ### [List](https://developer.salesforce.com/docs/atlas.en-us.224.0.apexcode.meta/apexcode/langCon_apex_collections_lists.htm)
@@ -287,62 +345,6 @@ If we declare a class as a `without sharing`, then this Apex class runs in syste
 
 <br>
 
-# Data Types, Lists, arrays
-
-- a String in a method is with sing quotation marks `''`   
-eg.: 
-`System.debug('Hello');`
-
-- List  
-  ```
-  List<Integer> listOfNumbers = new List<Integer>();
-	  listOfNumbers.add(1);
-	  listOfNumbers.add(2);
-	  listOfNumbers.add(3);
-	  listOfNumbers.add(3);
-	  listOfNumbers.add(1);
-  System.debug('listOfNumbers' + listOfNumbers);
-
-  // output:
-  //listOfNumbers(1,2,3,3,1)
-  ```
-
-- Set = arrays.   
-  Declaring a `Set`:   
-  `Set<Integer> setOfNumbers = new Set<Integer>();`
-   (Set<TYPE> VARIABLENAME = OPERATOR;) 
-  eg.:  
-  ```
-  Set<Integer> setOfNumbers = new Set<Integer>();
-    setOfNumbers.add(3);
-    setOfNumbers.add(2);
-    setOfNumbers.add(2);
-    setOfNumbers.add(1);
-
-  System.debug('setOfNumbers: ' + setOfNumbers);
-
-  // output:
-  //setOfNumbers {1,2,3}  //doesn't put the two 2 twice, and it puts the numbers in order 
-  ```
-
-- MAP  
-  we define datatype four 2 different element.
-  `Map< key, vlaue> variable = new Map< key, value>();`
-eg.:   
- *`.put()` method importing the value and the key.*   
- *For the `3` key we have a value `three` and a value `four`, therfore `three` is overwritten by `four`*   
-  ```
-  Map<Integer, String> mapOfIntegerString = new Map<Integer, String>();
-    mapOfIntegerString.put(1, 'one');
-    mapOfIntegerString.put(2, 'two');
-    mapOfIntegerString.put(3, 'three');
-    mapOfIntegerString.put(3, 'four');
-  System.debug('mapOfIntegerString: ' + mapOfIntegerString);
-  System.debug('Value at 3: ' + mapOfIntegerString.get(3);
-
-  // mapOfIntegerString: {1=one, 2=two, 3=four}
-  // Value at: 3: four
-  ```
 
 # Iterating Collections
 
