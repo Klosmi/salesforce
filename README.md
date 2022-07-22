@@ -2,11 +2,10 @@
 
 [What is Apex?](https://github.com/Klosmi/salesforce/blob/main/Apex.md#what-is-apex)      
 [Data Types Overview](https://github.com/Klosmi/salesforce/blob/main/Apex.md#data-types-overview)  
-
 [Apex Collections](https://github.com/Klosmi/salesforce/blob/main/Apex.md#apex-collections)      
- - [List](https://github.com/Klosmi/salesforce/blob/main/Apex.md#list)    
- - [Set](https://github.com/Klosmi/salesforce/blob/main/Apex.md#sets)   
- - [Map](https://github.com/Klosmi/salesforce/blob/main/Apex.md#map)    
+  [List](https://github.com/Klosmi/salesforce/blob/main/Apex.md#list)    
+  [Set](https://github.com/Klosmi/salesforce/blob/main/Apex.md#sets)   
+  [Map](https://github.com/Klosmi/salesforce/blob/main/Apex.md#map)    
 
 [Apex Classes](https://github.com/Klosmi/salesforce/blob/main/Apex.md#apex-classes)     
 [Inspect Debug Logs](https://github.com/Klosmi/salesforce/blob/main/Apex.md#inspect-debug-logs)     
