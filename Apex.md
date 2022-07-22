@@ -12,22 +12,76 @@ Apex is a programming language that uses Java-like syntax and acts like database
 
 <br>
 
-## Data Types Overview
- data type specific to Salesforce—the `sObject` data type
-- A primitive, such as an Integer, Double, Long, Date, Datetime, String, ID, Boolean, among others.
-- An sObject, either as a generic sObject or as a specific sObject, such as an Account, Contact, or MyCustomObject__c.
-- A collection, including:
-  - A list (or array) of primitives, sObjects, user defined objects, objects created from Apex classes, or collections
-  - A set of primitives
-  - A map from a primitive to a primitive, sObject, or collectio
+## [Data Types Overview](https://www.tutorialspoint.com/apex/apex_data_types.htm)    
+Apex is a strongly types language → every variable has to be declared with the specific data type.   
 
- - A typed list of values, also known as an __*enum*__
- - User-defined Apex classes
-  - System-supplied Apex classes
+### Primitive:   
+- Intiger: 32-bit number (does not include a decimal point)   
+    *define an integer and print out*    
+    *`system.debug` is an output statement in Apex (like system.out.printIn in Java)*  
+    ```
+    Integer i = 100;
+    system.debug(i);
+    ```
+
+- Long: 64-bit number (does not include a decimal point)   
+    *define a long datatype and print out*    
+    ```
+     Long l = 2147483648;
+    system.debug(l);
+    ```
+- Decimal   
+    `Decimal d = 27.0`
+- Date   
+    Storing date, not the time.   
+    *date.today() function*
+    ```
+    Date today = date.today();
+    2022-07-22
+    ```
+- Date Time   
+    Both Date and Time
+
+- Blob    
+    collection of binary data stored as a single object.
+
+- String    
+    ```
+    String s = 'abcdefg';
+    ```
+- ID    
+    stores the ID of a record. All records have a unique ID.    
+    In order to perform any operation on a record, we need to use the record's ID.    
+    ID in Apex is any valid 18 character Lightning Platform record identifier.
+
+- Boolean    
+    it can only be assigned to `true`, `false` or `null`    
+    Used to check for a condition.
+    ```
+    Boolean isWinner = true;
+    ```
+- sObject    
+    - sObject represent any record in the SalesForce database.     
+    With this datatype we can create, modify or delete any records in the database.    
+
+        *Create a new account record, named 'Hello'*   
+        ```
+        Account abc = new Account(Name = 'Hello');
+        insert abc;
+        ```  
+     - An sObject, either as a generic sObject or as a specific sObject, such as an Account, Contact, or MyCustomObject__c.
+
+- enum   
+    - enum is an abstract datatype that stores one value of (a finite set of) specified identifiers    
+        *List of identifiers: WINTER, SPRING, SUMMER, FALL*
+        ```
+        public enum Season {WINTER, SPRING, SUMMER, FALL}
+        ```
 
 <br>
 
 ## [Apex Collections](https://developer.salesforce.com/docs/atlas.en-us.224.0.apexcode.meta/apexcode/langCon_apex_collections.htm): 
+
 ### [List](https://developer.salesforce.com/docs/atlas.en-us.224.0.apexcode.meta/apexcode/langCon_apex_collections_lists.htm)
 Lists hold an ordered collection of objects.   
 __Lists in Apex are synonymous with arrays__ and the two can be used interchangeably.
@@ -97,6 +151,10 @@ __Lists in Apex are synonymous with arrays__ and the two can be used interchange
         System.debug(colors[i]);
     }
     ```
+
+- Sets
+- Maps
+- Parameterized Typing
 
 ## [Apex Classes](https://www.salesforcetutorial.com/apex-class/)
 it is a blueprint (template) from which objects are created.   
