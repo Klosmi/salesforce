@@ -83,7 +83,7 @@ Apex is a strongly types language → every variable has to be declared with the
 ## [Apex Collections](https://developer.salesforce.com/docs/atlas.en-us.224.0.apexcode.meta/apexcode/langCon_apex_collections.htm): 
 
 ### [List](https://developer.salesforce.com/docs/atlas.en-us.224.0.apexcode.meta/apexcode/langCon_apex_collections_lists.htm)
-Lists hold an ordered collection of objects.   
+Lists holds an ordered collection of objects.   
 __Lists in Apex are synonymous with arrays__ and the two can be used interchangeably.
  
 - To declare a list, use the `List` keyword followed by the primitive data, sObject, nested list, map, or __set type within `<>` characters__.
