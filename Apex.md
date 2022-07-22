@@ -45,10 +45,11 @@ Apex is a strongly types language → every variable has to be declared with the
 - Blob    
     collection of binary data stored as a single object.
 
-- String    
-    ```
-    String s = 'abcdefg';
-    ```
+- String   
+   - a String in a method is with sing quotation marks `''`   
+	```
+	String s = 'abcdefg';
+	```
 - ID    
     stores the ID of a record. All records have a unique ID.    
     In order to perform any operation on a record, we need to use the record's ID.    
@@ -81,11 +82,6 @@ Apex is a strongly types language → every variable has to be declared with the
 <br>
 
 ## [Apex Collections](https://developer.salesforce.com/docs/atlas.en-us.224.0.apexcode.meta/apexcode/langCon_apex_collections.htm): 
-
-
-- a String in a method is with sing quotation marks `''`   
-eg.: 
-`System.debug('Hello');`
 
 ### [List](https://developer.salesforce.com/docs/atlas.en-us.224.0.apexcode.meta/apexcode/langCon_apex_collections_lists.htm)
 Lists holds an ordered collection of objects.   
