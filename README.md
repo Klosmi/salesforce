@@ -6,6 +6,8 @@
 
 [Apex Collections](https://github.com/Klosmi/salesforce/blob/main/Apex.md#apex-collections)      
  - [List](https://github.com/Klosmi/salesforce/blob/main/Apex.md#list)    
+ - [Set](https://github.com/Klosmi/salesforce/blob/main/Apex.md#sets)   
+ - [Map]()
 
 [Apex Classes](https://github.com/Klosmi/salesforce/blob/main/Apex.md#apex-classes)     
 
