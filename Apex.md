@@ -733,3 +733,39 @@ __Pass by Reference__
 <br>
 
 👈[back to contents](https://github.com/Klosmi/salesforce/blob/main/README.md#apex)
+	
+## [Trigger](https://www.tutorialspoint.com/apex/apex_triggers.htm)    
+Apex triggers are a piece of code which enables users to perform custom actions when a particular event occurs.    
+__A trigger executes before and after an event occurs on Salesfroce record.__    
+Changes can be: insertion, updating or deletion of records.    
+
+- a trigger definition starts with ètriggerè keyword, then the name of the trigger, then the Salesforce object that the trigger is associated with and last the trigger events.   
+    ```
+    trigger TriggerNale on ObjectName (trigger_events) {
+        // block of code
+    }
+    ```
+
+    *This trigger throws us an error when we try to create a newAccoubt with the same name (of an already existing account)*
+    ```
+    trigger AccountDuplication on Account (before insert) {
+        // creating a for loop
+        for(Account acc:Trigger.new) {
+            // this statement gives us the Account name
+            List<Account> mynew = [select ID, Name from Account where Name =: acc.Name];
+
+            //check for a condition
+            //size context variable returns the total number of records on a trigger invocation
+            //If its > 0 throws an error message
+            if(mynew.size()>0)
+
+            acc.Name.addError('Account with the same name already exiting');
+        }
+    }
+    ```
+
+---
+
+<br>
+
+👈[back to contents](https://github.com/Klosmi/salesforce/blob/main/README.md#apex)
