@@ -7,9 +7,9 @@
   • [Set](https://github.com/Klosmi/salesforce/blob/main/Apex.md#sets)   
   • [Map](https://github.com/Klosmi/salesforce/blob/main/Apex.md#map)    
 
-[Keywords in Apex](https://github.com/Klosmi/salesforce/blob/main/Apex.md#keywords-in-apex)    
 [Inspect Debug Logs](https://github.com/Klosmi/salesforce/blob/main/Apex.md#inspect-debug-logs)     
-[Call a Static Method](https://github.com/Klosmi/salesforce/blob/main/Apex.md#call-a-static-method)     
+[Call a Static Method](https://github.com/Klosmi/salesforce/blob/main/Apex.md#call-a-static-method) 
+[Keywords in Apex](https://github.com/Klosmi/salesforce/blob/main/Apex.md#keywords-in-apex)    
 [Data Types, Lists, arrays](https://github.com/Klosmi/salesforce/blob/main/Apex.md#data-types-lists-arrays)      
 [Iterating Collections](https://github.com/Klosmi/salesforce/blob/main/Apex.md#iterating-)      
 [Conditional Statements](https://github.com/Klosmi/salesforce/blob/main/Apex.md#conditional-statements)     
