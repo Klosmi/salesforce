@@ -1,29 +1,29 @@
 # Apex
 
-[What is Apex?]()      
+[What is Apex?](https://github.com/Klosmi/salesforce/blob/main/Apex.md#what-is-apex)      
 
-Data Types Overview()      
+[Data Types Overview](https://github.com/Klosmi/salesforce/blob/main/Apex.md#data-types-overview)      
 
-[Apex Collections]()      
+[Apex Collections](https://github.com/Klosmi/salesforce/blob/main/Apex.md#apex-collections)      
  - [List]()    
 
-[Apex Classes]()     
+[Apex Classes](https://github.com/Klosmi/salesforce/blob/main/Apex.md#apex-classes)     
 
-[Inspect Debug Logs]()     
+[Inspect Debug Logs](https://github.com/Klosmi/salesforce/blob/main/Apex.md#inspect-debug-logs)     
 
-[Call a Static Method]()     
+[Call a Static Method](https://github.com/Klosmi/salesforce/blob/main/Apex.md#call-a-static-method)     
 
-[Data Types, Lists, arrays]()      
+[Data Types, Lists, arrays](https://github.com/Klosmi/salesforce/blob/main/Apex.md#data-types-lists-arrays)      
  
-[Iterating Collections]()      
+[Iterating Collections](https://github.com/Klosmi/salesforce/blob/main/Apex.md#iterating-)      
 
-[Conditional Statements]()     
+[Conditional Statements](https://github.com/Klosmi/salesforce/blob/main/Apex.md#conditional-statements)     
 
-[Class]()    
+[Class](https://github.com/Klosmi/salesforce/blob/main/Apex.md#class)    
 
-[Object]()    
+[Object](https://github.com/Klosmi/salesforce/blob/main/Apex.md#object)    
 
-[Static vs Instance variables and methods]()    
+[Static vs Instance variables and methods](https://github.com/Klosmi/salesforce/blob/main/Apex.md#methods)    
 
-[Pasing by Value vs Passing by Reference]()
+[Pasing by Value vs Passing by Reference](https://github.com/Klosmi/salesforce/blob/main/Apex.md#static-vs-instance-variables-and-methods)
 
