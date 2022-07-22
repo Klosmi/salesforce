@@ -380,36 +380,14 @@ If we declare a class as a `without sharing`, then this Apex class runs in syste
 <br>
 
 👈[back to contents](https://github.com/Klosmi/salesforce/blob/main/README.md#apex)
+	
+## [Conditional Statements](https://www.levelupsalesforce.com/if-statements-in-apex)
 
-
-## Iterating Collections
-
-- Do While loop
-- While loop
-  ```
-  Integer count = 1;
-
-  while (count < 11) {
-      System.debug(count);
-      count++;
-  }
-  ```
-- for loop
-  - eg.:   
-    ```
-    List<Integer> listOfNumbers = new List<Integer>();
-    Integer maxListSize = 5;
-    for(Integer i = 0; i<maxListsize; i++) {
-        listOfNumbers.add(i);
-    }
-    System.debug('listOfNumbers: ' + listOfNumbers);
-
-    //listOfNumbers: (0,1,2,3,4)
-    ```
-
-# Conditional Statements
-
-  - If Else...
+  - __if__, __if else__    
+	An __if__ statement consists of a condition followed by one or more statements.  
+	If the condition is true, then the code inside of the if statement is executed.    
+	If its false, then the first set of code after the end of the if statelent will be executed (after the parenthesis).  
+	
     ```
     if(boolean condition){
       // code block
@@ -422,6 +400,7 @@ If we declare a class as a `without sharing`, then this Apex class runs in syste
     }
     
     ```
+	
   - Switch Statements   
  the Switch statement allows us to write if / else logic
       ```
@@ -437,6 +416,7 @@ If we declare a class as a `without sharing`, then this Apex class runs in syste
         }
       }
       ```
+	
   - Ternary Operators   
    Uses ? :    
    `(boolean condition) ? value if true : value if false`
@@ -462,8 +442,69 @@ If we declare a class as a `without sharing`, then this Apex class runs in syste
 
     // Final Summation: 30
     ```
+---
 
-# [Class](https://www.youtube.com/watch?v=TCxOlvxT8l4)
+<br>
+
+👈[back to contents](https://github.com/Klosmi/salesforce/blob/main/README.md#apex)
+	
+## Iterating Collections
+
+- __while loop__   
+A whileloop statement in Apex repeatedly executes a target statement as long as a given condition is true.    
+  ```
+  Integer count = 1;
+  while (count < 10) {
+      system.debug(count);
+      count++;
+  } 
+  ```
+  ```		    
+  Integer count = 1;
+
+  while (count < 11) {
+      System.debug(count);
+      count++;
+  }
+  ```
+	
+- __do-while loop__    
+Repeatedly executes a block of code asl ong as a particular condition remains true.    
+It is __guaranteed to execute at least one time__.
+    ```
+    Integer count = 1;
+    do{
+        system.debug(count);
+        count++;
+    }
+    while (count < 10);
+    ``` 
+	
+	
+- for loop      
+   A for loop is a repetition control structure that allows you to efficiently write a loop that needs to execute a specific nulber of times.   
+		       
+  - eg.:     
+     *Making a list of Integer values*     
+    ```
+    List<Integer> listOfNumbers = new List<Integer>();
+    Integer maxListSize = 5;
+    for(Integer i = 0; i<maxListsize; i++) {
+        listOfNumbers.add(i);
+    }
+    System.debug('listOfNumbers: ' + listOfNumbers);
+
+    //listOfNumbers: (0,1,2,3,4)
+    ```   
+
+---
+
+<br>
+
+👈[back to contents](https://github.com/Klosmi/salesforce/blob/main/README.md#apex)
+	
+
+## [Class](https://www.youtube.com/watch?v=TCxOlvxT8l4)
 user defined datatype, acts as a blueprint for their instances
 It is constracted by 3 parts:
 - constructor - used for memory allocation and initialization
