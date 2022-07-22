@@ -5,7 +5,8 @@
 [Apex Collections](https://github.com/Klosmi/salesforce/blob/main/Apex.md#apex-collections)      
  - [List](https://github.com/Klosmi/salesforce/blob/main/Apex.md#list)    
  - [Set](https://github.com/Klosmi/salesforce/blob/main/Apex.md#sets)   
- - [Map](https://github.com/Klosmi/salesforce/blob/main/Apex.md#map)
+ - [Map](https://github.com/Klosmi/salesforce/blob/main/Apex.md#map)    
+
 [Apex Classes](https://github.com/Klosmi/salesforce/blob/main/Apex.md#apex-classes)     
 [Inspect Debug Logs](https://github.com/Klosmi/salesforce/blob/main/Apex.md#inspect-debug-logs)     
 [Call a Static Method](https://github.com/Klosmi/salesforce/blob/main/Apex.md#call-a-static-method)     
