@@ -146,25 +146,29 @@ Lists holds an __ordered__ collection of objects.
     System.assertEquals(color1, color2);      //← System Class, Asserts that the first two arguments are the same. 
 
     // Iterate over a list to read elements
-    for(Integer i=0;i<colors.size();i++) {
-
-        // Write value to the debug log
-        System.debug(colors[i]);
+    for(Integer i=0; i<colors.size(); i++) {
+      // Write value to the debug log
+      System.debug(colors[i]);
     }
     ```
 
-  ```
-  List<Integer> listOfNumbers = new List<Integer>();
-	  listOfNumbers.add(1);
-	  listOfNumbers.add(2);
-	  listOfNumbers.add(3);
-	  listOfNumbers.add(3);
-	  listOfNumbers.add(1);
-  System.debug('listOfNumbers' + listOfNumbers);
+    ```
+    List<Integer> listOfNumbers = new List<Integer>();
+         listOfNumbers.add(1);
+	 listOfNumbers.add(2);
+	 listOfNumbers.add(3);
+	 istOfNumbers.add(3);
+	 istOfNumbers.add(1);
+     System.debug('listOfNumbers' + listOfNumbers);
 
-  // output:
-  //listOfNumbers(1,2,3,3,1)
-  ```
+     // output:
+     // listOfNumbers(1,2,3,3,1)
+    ```
+  - compare:   
+    *compare color1 & color2*   
+    ```
+    System.assertEquals(color1,color2);
+    ```
 
 ### [Sets]()    
 A set is an __unordered__ collection of elements that do not contain any duplicates. Set elements can be of any data type—primitive types, collections, sObjects, user-defined types, and built-in Apex types.
