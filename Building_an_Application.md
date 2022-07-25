@@ -4,5 +4,9 @@
 __Metadata__ contains the information about the look and feel of the application, along with its functionality.    
 __Data__ is the value of fields in the records
 
+---
+
+<br>
+
 👈[back to contents](https://github.com/Klosmi/salesforce/blob/main/README.md#building-an-application)
 
