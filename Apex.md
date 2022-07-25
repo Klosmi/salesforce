@@ -485,7 +485,12 @@ A class can contain:
 - variables: 
     - specifies the state of an object (object's name, object's type)
     - since they qre qssociqted with class (they are members of it) → member variables
-- methods
+- methods     
+
+__Declaring a class__        
+
+`   public 	   class      Flower`     
+|Access Modifier| Keyword | Class Name |    
 
 *creating a simple class:*   
 `class` keyword + `name`   
