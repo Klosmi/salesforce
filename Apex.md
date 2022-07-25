@@ -122,6 +122,59 @@ So, to declare a list, use the `List` keyword followed by the primitive data, sO
   ```
   List<List<Set<Integer>>> my_list_2 = new List<List<Set<Integer>>>();
   ```
+  
+- If we know exactly how long our list needs to be, we can set the size when we declare the list. We do this by including the size in brackets, `[ ]`, after the data type, like this:  
+ ```
+ String[] groceries = new String[4]; 
+ ```
+ *An item’s sequential position is a number called its index.*    
+ We reference a certain item in the list by its index (its position within the list) like this:   
+ ```
+ groceries[0];
+ ```
+ 
+- Initializing a list is assigning initial values to a list (2 ways to do that):     
+	1st way: Declare and initialize a list.     
+	*Sets the first item in the list to for example 'Tea'*
+	```
+	List<String> groceries = new List<String>{'Tea'}; 
+	```
+ 	2nd way: Declare an empty list and add values later    
+	```
+	List<String> groceries = new List<String>();
+	groceries.add('Tea');
+	```
+ 
+- Declare and Initialize a List:    
+The syntax for initializing a list with values is similar to declaring an empty list. The difference is that instead of using parenthesis `( )`, we use curly braces `{ }` to add values.    
+	```
+	List<String> groceries = new List<String>{'Tea','Sugar','Honey','Milk'};
+	```
+	
+- add values later, before we intitialize an empty list:   
+	```
+	//Create the groceries list
+	List<String> groceries = new List<String>();
+
+	//The output for this statement is null
+	System.debug('Groceries: ' + groceries);
+
+	//Use the add method to add an element to the list
+	groceries.add('Tea');
+	groceries.add('Sugar');
+	groceries.add('Honey');
+	groceries.add(2, 'Milk');
+
+	//The output for this statement is Tea, Sugar, Milk, Honey
+	System.debug('Groceries: ' + groceries);
+	```
+	
+-  another way to add an item to a list is by inserting the item in a specific index (position):   
+	 *`2` is the index, `'Milk'` is the item name*    
+	 ```
+	 groceries.add(2, 'Milk');
+	 ```
+	 
 - To access elements in a list, use the List methods provided by Apex.
   - eg.:   
     ```
@@ -150,7 +203,7 @@ So, to declare a list, use the `List` keyword followed by the primitive data, sO
   - `List.add()` method to add new elements
 
   - eg.:   
-      *Wow to add elements to a list when you create it, and then use the `add()` method to add more elements.*
+      *How to add elements to a list when you create it, and then use the `add()` method to add more elements.*
       ```
       // Create a list and add elements to it in one step
       List<String> colors = new List<String> { 'red', 'green', 'blue' };
