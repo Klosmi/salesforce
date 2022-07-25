@@ -5,6 +5,8 @@
 __Data__ is the value of fields in the records
 - Data is the values of fields on the record.
 
+<br>
+
 __Metadata__ contains the information about the look and feel of the application, along with its functionality.     
 - Metadata can be accessed in code.   
 - Metadata is different than data.
