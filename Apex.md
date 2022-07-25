@@ -800,7 +800,8 @@ APIs that let us access the Salesforce data in a variety of ways.
 	
 ## [Salesforce APIs](https://help.salesforce.com/s/articleView?id=sf.integrate_what_is_api.htm&type=5)      
 
-__SOAP API__          	
+__SOAP API__                 
+   	
 Integrate your org’s data with other applications using standard SOAP protocols.        
 
 __REST API__	     
