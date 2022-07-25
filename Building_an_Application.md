@@ -24,10 +24,10 @@ The structure of the metadata for the eg.: 'Crtification' ustom object contains:
  - subrectories for compactLayouts, fields, and listViews
  - many files in the fields subdirectory, representing individual fields
 
-
-
 ---
 
 <br>
 
 👈[back to contents](https://github.com/Klosmi/salesforce/blob/main/README.md#building-an-application)    
+
+## [What is a Sandbox?](https://www.salesforceben.com/salesforce-sandbox/#:~:text=the%20new%20sandbox.-,What%20Is%20a%20Salesforce%20Sandbox%3F,Accounts%2C%20Contacts%2C%20and%20Leads.)
