@@ -507,6 +507,10 @@ A method describes the behaviors inherited by objects of that class. A class can
 |:--------------|:----------|:------------|:-------------|:------------------|:--------------|	
 |Access Modifier|  Keyword  | Return Type |  Method Name | Parameter         |body of method |
 	
+	
+__Parameter__  
+A parameter is a variable that serves as a placeholder, waiting to receive a value. Parameters are declared similarly to a variable, with a data type followed by the parameter name.     
+	
 *creating a simple class:*   
 `class` keyword + `name`   
 like:   	
