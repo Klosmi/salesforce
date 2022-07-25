@@ -59,7 +59,8 @@ Apex is a strongly types language → every variable has to be declared with the
 - ID    
     stores the ID of a record. All records have a unique ID.    
     In order to perform any operation on a record, we need to use the record's ID.    
-    ID in Apex is any valid 18 character Lightning Platform record identifier.
+    ID in Apex is any valid 18 character Lightning Platform record identifier.    
+    `Id contactId = '00300000003T2PGAA0';`
 
 - Boolean    
     it can only be assigned to `true`, `false` or `null`    
