@@ -530,14 +530,14 @@ A method describes the behaviors inherited by objects of that class. A class can
   }
   ```   
 
-eg.:  
-```
-public class MyApexClass {
-    public static void MyApexMethod() {
+- eg.:  
+  ```
+  public class MyApexClass {
+      public static void MyApexMethod() {
         system.debug('Hello World');
-    }
-}
-``` 
+     }
+  }
+  ``` 
      	
 	
 __Parameter__  
