@@ -18,7 +18,7 @@ The directory structure is broken into different types of metadata:
 - Permission Sets
 - Triggers
 
-[Source format](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_source_file_format.htm)
+[Source format](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_source_file_format.htm)     
 The structure of the metadata for the eg.: 'Crtification' ustom object contains:
  - one object-xml file in the main directory
  - subrectories for compactLayouts, fields, and listViews
