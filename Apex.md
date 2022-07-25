@@ -232,13 +232,13 @@ Sets are useful when we don't care about the order and we don't want to have dup
 	
 - eg.:    
 *Each employee has an ID and a Name*   
-| Id     | Name   |	
-|:-------|:-------|
-|760932  | Sandy  |
-|:-------|:-------|
-|760928  | Jose   |	
-|:-------|:-------|
-|760875  | Fatima |
+	
+| ID          | Name        | 
+|-------------|-------------|
+| 760932      | Sandy       |
+| 760928      | Jose        |
+| 760875      | Fatima      |
+	
 	
 - eg.:       
  *`.put()` method importing the value and the key.*      
