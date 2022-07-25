@@ -782,3 +782,8 @@ Changes can be: insertion, updating or deletion of records.
 <br>
 
 👈[back to contents](https://github.com/Klosmi/salesforce/blob/main/README.md#apex)
+
+
+# API    
+
+## [Lightning Platform APIs](https://developer.salesforce.com/docs/atlas.en-us.214.0.api_rest.meta/api_rest/intro_what_is_rest_api.htm)
