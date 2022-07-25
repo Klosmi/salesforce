@@ -12,6 +12,13 @@ __Metadata__ contains the information about the look and feel of the application
 - Metadata is different than data.
 - Metadata can be stored on your file system.
 
+The directory structure is broken into different types of metadata:   
+- Apex Classes
+- Custom Objects
+- Permission Sets
+- Triggers
+
+
 
 
 ---
