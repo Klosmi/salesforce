@@ -502,15 +502,7 @@ class ClassName [implements InterfaceNameList][extends ClassName]
 {
   //body of the class
 }
-```
-eg.:  
-```
-public class MyApexClass {
-    public static void MyApexMethod() {
-        system.debug('Hello World');
-    }
-}
-```    
+```   
 
 __Access Modifier__    
 An access modifier is a keyword in a class or method declaration.      
@@ -537,7 +529,16 @@ A method describes the behaviors inherited by objects of that class. A class can
       }    
   }
   ```   
-	
+
+eg.:  
+```
+public class MyApexClass {
+    public static void MyApexMethod() {
+        system.debug('Hello World');
+    }
+}
+``` 
+     	
 	
 __Parameter__  
 A parameter is a variable that serves as a placeholder, waiting to receive a value. Parameters are declared similarly to a variable, with a data type followed by the parameter name.     
