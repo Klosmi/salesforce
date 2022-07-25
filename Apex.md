@@ -489,9 +489,23 @@ A class can contain:
 
 __Declaring a class__        
 
-`public` |  `class` |  `Flower`	`{ body }`         
-Access Modifier| Keyword | Class Name    
+|`public`       |  `class` |  `Flower`  | `{ body }` |   
+|:--------------|:---------|:-----------|:-----------|	
+|Access Modifier|  Keyword | Class Name |   the code |
 
+__Access Modifier__    
+An access modifier is a keyword in a class or method declaration.      
+The access modifier determines what other Apex code can see and use the class or method.     
+	
+__Methods__      
+Methods are defined within a class.     
+A method describes the behaviors inherited by objects of that class. A class can have one or more methods.    
+
+ - __declaring a method__    
+|`public`       |  `static` |  `Intiger`  | `grow`        | `( numberOfMeters)` | `{ body of method }` |  
+|:--------------|:----------|:------------|:--------------|:--------------------|:---------------------|	
+|Access Modifier|  Keyword  | Return Type |   Method Name |     Parameter       |     body of method   |
+	
 *creating a simple class:*   
 `class` keyword + `name`   
 like:   	
