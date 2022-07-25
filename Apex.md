@@ -590,11 +590,22 @@ modifiers specifies the accessibility or scope of a field, method, constructor, 
   ```
 
 [useful video]((https://www.youtube.com/watch?v=TCxOlvxT8l4))
+
 ---
 
 <br>
 
 👈[back to contents](https://github.com/Klosmi/salesforce/blob/main/README.md#apex)
+	
+## [Collections]()   
+A collection is a type of variable that can store multiple items.    
+So, collections are complex datatypes that store groupes of items and allow us to work on them together.
+
+---
+
+<br>
+
+👈[back to contents](https://github.com/Klosmi/salesforce/blob/main/README.md#apex
 
 ## Object
 an object is an instance of a class *i.e. a class in action*
