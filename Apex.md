@@ -798,10 +798,10 @@ APIs that let us access the Salesforce data in a variety of ways.
 👈[back to contents](https://github.com/Klosmi/salesforce#api)
 	
 	
-## [Salesforce APIs](https://help.salesforce.com/s/articleView?id=sf.integrate_what_is_api.htm&type=5)
+## [Salesforce APIs](https://help.salesforce.com/s/articleView?id=sf.integrate_what_is_api.htm&type=5)      
 
-__SOAP API__    	
-Integrate your org’s data with other applications using standard SOAP protocols.    
+__SOAP API__          	
+Integrate your org’s data with other applications using standard SOAP protocols.        
 
 __REST API__	     
 Access objects in your org using standard REST protocols.     
