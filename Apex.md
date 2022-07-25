@@ -471,7 +471,7 @@ It is __guaranteed to execute at least one time__.
 
 👈[back to contents](https://github.com/Klosmi/salesforce/blob/main/README.md#apex)
 
-## [Apex Classes](https://www.salesforcetutorial.com/apex-class/)
+## [Apex Classes & OOP](https://www.salesforcetutorial.com/apex-class/)
 it is a blueprint (template) from which objects are created.   
 One of the benefits of Apex classes is code reuse.   
 *An object is an instance of a class.*  
