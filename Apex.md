@@ -489,8 +489,8 @@ A class can contain:
 
 __Declaring a class__        
 
-`   public 	   class      Flower`     
-|Access Modifier| Keyword | Class Name |    
+`public` |  `class` |  `Flower`     
+Access Modifier| Keyword | Class Name    
 
 *creating a simple class:*   
 `class` keyword + `name`   
