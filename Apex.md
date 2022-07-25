@@ -233,7 +233,7 @@ Sets are useful when we don't care about the order and we don't want to have dup
 - eg.:    
 *Each employee has an ID and a Name*   
 	
-| ID          | Name        | 
+| ID (key)    | Name (value)| 
 |-------------|-------------|
 | 760932      | Sandy       |
 | 760928      | Jose        |
