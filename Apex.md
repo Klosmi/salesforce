@@ -104,9 +104,15 @@ The simpliest type of collection.
 Lists always have an __order__ of objects. Each member of the holds a specificposition.   
 They are useful when you want a simple way to store a group of values.    
 
- So __Lists in Apex are synonymous with arrays__ and the two can be used interchangeably. However creating list is easier than arrays.
+ So __Lists in Apex are synonymous with arrays__ and the two can be used interchangeably. However creating list is easier than arrays.   
  
-- To declare a list, use the `List` keyword followed by the primitive data, sObject, nested list, map, or __set type within `<>` characters__.
+To declare a list we use the `list` reserved word, the `data type` (all items must be the same data type) within the `<>` characters, and the reserved word `new`. At the end of this statement there are required parentheses `()`.    
+So, to declare a list, use the `List` keyword followed by the primitive data, sObject, nested list, map, or __set type within `<>` characters__.
+
+| `List`        | `<String>`  | `groceries` | `=`         | `new`         | `List`        | `<String>`  | `()`        | 
+|---------------|-------------|-------------|-------------|---------------|---------------|-------------|-------------|
+| reserved word | data type   | list name   |             | reserved word | reserved word |             |             |
+
 - eg.:    
   *Create an empty list of String*
   ```
@@ -143,7 +149,7 @@ They are useful when you want a simple way to store a group of values.
   ```
   - `List.add()` method to add new elements
 
-    - eg.:   
+  - eg.:   
       *Wow to add elements to a list when you create it, and then use the `add()` method to add more elements.*
       ```
       // Create a list and add elements to it in one step
