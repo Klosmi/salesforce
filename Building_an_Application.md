@@ -26,5 +26,9 @@ The directory structure is broken into different types of metadata:
 
 <br>
 
-👈[back to contents](https://github.com/Klosmi/salesforce/blob/main/README.md#building-an-application)
+👈[back to contents](https://github.com/Klosmi/salesforce/blob/main/README.md#building-an-application)    
+The structure of the metadata for the eg.: 'Crtification' ustom object contains:
+ - one object-xml file in the main directory
+ - subrectories for compactLayouts, fields, and listViews
+ - many files in the fields subdirectory, representing individual fields
 
