@@ -502,9 +502,10 @@ Methods are defined within a class.
 A method describes the behaviors inherited by objects of that class. A class can have one or more methods.    
 
  - __declaring a method__    
-|`public`       | `static` |  `Intiger`  | `grow`        | `( numberOfMeters)` | `{ body of method }` |  
-|:--------------|:---------|:------------|:--------------|:--------------------|:---------------------|	
-|Access Modifier|  Keyword | Return Type |   Method Name |     Parameter       |     body of method   |
+
+|`public`       |  `static` |  `Intiger`  | `growBig`    |`( numberOfMeters)`| `{ body }`    |  
+|:--------------|:----------|:------------|:-------------|:------------------|:--------------|	
+|Access Modifier|  Keyword  | Return Type |  Method Name | Parameter         |body of method |
 	
 *creating a simple class:*   
 `class` keyword + `name`   
