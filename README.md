@@ -28,4 +28,4 @@
 <br>
 
 # Building an Application
-## [Data vs. Metadata]()
+[Data vs. Metadata]()
