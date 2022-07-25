@@ -24,17 +24,17 @@ Apex is a strongly types language → every variable has to be declared with the
 ### Primitive:   
 - Intiger: 32-bit number (does not include a decimal point)   
     *define an integer and print out*    
-    *`system.debug` is an output statement in Apex (like system.out.printIn in Java)*  
+    *`System.debug` is an output statement in Apex (like system.out.printIn in Java)*  
     ```
     Integer i = 100;
-    system.debug(i);
+    System.debug(i);
     ```
 
 - Long: 64-bit number (does not include a decimal point)   
     *define a long datatype and print out*    
     ```
      Long l = 2147483648;
-    system.debug(l);
+     System.debug(l);
     ```
 - Decimal   
     `Decimal d = 27.0`
