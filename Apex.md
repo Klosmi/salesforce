@@ -789,4 +789,9 @@ Changes can be: insertion, updating or deletion of records.
 ## [Lightning Platform APIs](https://developer.salesforce.com/docs/atlas.en-us.214.0.api_rest.meta/api_rest/intro_what_is_rest_api.htm)       
 APIs that let us access the Salesforce data in a variety of ways.    
 
- Every object in our org has an API name that lets us access data for that object.
+ Every object in our org has an API name that lets us access data for that object.    
+
+👈[back to contents](https://github.com/Klosmi/salesforce/blob/main/README.md#apex)
+	
+	
+## [Salesforce APIs](https://help.salesforce.com/s/articleView?id=sf.integrate_what_is_api.htm&type=5)
