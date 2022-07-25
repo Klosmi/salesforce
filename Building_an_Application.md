@@ -18,6 +18,7 @@ The directory structure is broken into different types of metadata:
 - Permission Sets
 - Triggers
 
+[Source format](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_source_file_format.htm)
 
 
 
