@@ -3,7 +3,9 @@ Visualforce lets you create and customize pages in Salesforce as well as integra
 It is a component-based user interface (UI) framework that enables the creation of dynamic, reusable interfaces.   
 With Visualforce, we can develop entire pages at once.    
 
-Visualforce uses a similar convention to Lightning components with `<apex:tagName>`.
+Visualforce uses a similar convention to Lightning components with `<apex:tagName>`.    
+
+Visualforce pages use server-side Apex controllers, and most complex pages use quite a bit.
 
 ---
 
