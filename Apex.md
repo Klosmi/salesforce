@@ -800,32 +800,31 @@ APIs that let us access the Salesforce data in a variety of ways.
 	
 ## [Salesforce APIs](https://help.salesforce.com/s/articleView?id=sf.integrate_what_is_api.htm&type=5)      
 
-__SOAP API__                 
-   	
+__SOAP API__       
 Integrate your org’s data with other applications using standard SOAP protocols.        
 
-__REST API__	     
+__REST API__       
 Access objects in your org using standard REST protocols.     
 	
 __Metadata API__       
 Manage customizations in your org and build tools that manage your metadata model.     
 	
-__Tooling API__       	
+__Tooling API__       
 Build custom development tools for platform applications.     
 
-__Marketing Cloud API__      	
+__Marketing Cloud API__       
 Expose Marketing Cloud capabilities with the REST API and get comprehensive access to most email functionality with the SOAP API.     
 	
-__Bulk API__     	
+__Bulk API__       
 Load, delete, and perform asynchronous queries on large data sets.     
 	
-__Streaming API__      	
+__Streaming API__       
 Send and receive notifications securely and efficiently. Notifications can reflect data changes in your org, or custom events.      
 	
-__Connect REST API__	     
+__Connect REST API__       
 Build UI for Commerce, CMS-Managed Content, Experience Cloud Sites, Files, Notifications, Topics, and more.     
 	
-__Mobile SDK__        	
+__Mobile SDK__       
 While it’s technically a software development kit, it’s worth including here. Integrate Native or Hybrid mobile apps directly with Salesforce.    
 	
 ---
