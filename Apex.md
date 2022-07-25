@@ -489,7 +489,7 @@ A class can contain:
 
 __Declaring a class__        
 
-`public` |  `class` |  `Flower`	{ body }     
+`public` |  `class` |  `Flower`	`{ body }`         
 Access Modifier| Keyword | Class Name    
 
 *creating a simple class:*   
