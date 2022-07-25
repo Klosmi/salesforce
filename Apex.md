@@ -124,14 +124,14 @@ So, to declare a list, use the `List` keyword followed by the primitive data, sO
   ```
   
 - If we know exactly how long our list needs to be, we can set the size when we declare the list. We do this by including the size in brackets, `[ ]`, after the data type, like this:  
- ```
- String[] groceries = new String[4]; 
- ```
- *An item’s sequential position is a number called its index.*    
- We reference a certain item in the list by its index (its position within the list) like this:   
- ```
- groceries[0];
- ```
+	 ```
+	 String[] groceries = new String[4]; 
+	 ```
+	 *An item’s sequential position is a number called its index.*    
+	 We reference a certain item in the list by its index (its position within the list) like this:   
+	 ```
+	 groceries[0];
+	 ```
  
 - Initializing a list is assigning initial values to a list (2 ways to do that):     
 	1st way: Declare and initialize a list.     
