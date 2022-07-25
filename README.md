@@ -23,6 +23,8 @@
 
 # API
 
+[Lightning Platform APIs](https://github.com/Klosmi/salesforce/blob/main/Apex.md#lightning-platform-apis)
+
 
 
 <br>
