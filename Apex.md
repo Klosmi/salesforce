@@ -93,10 +93,17 @@ Apex is a strongly types language → every variable has to be declared with the
 👈[back to contents](https://github.com/Klosmi/salesforce/blob/main/README.md#apex)
 
 
-## [Apex Collections](https://developer.salesforce.com/docs/atlas.en-us.224.0.apexcode.meta/apexcode/langCon_apex_collections.htm): 
+## [Collections](https://developer.salesforce.com/docs/atlas.en-us.224.0.apexcode.meta/apexcode/langCon_apex_collections.htm):    
+A collection is a type of variable that can store multiple items.    
+So, collections are complex datatypes that store groupes of items and allow us to work on them together.   
+
+Apex we have 3 types of collections: Lists, Sets, Maps.    
 
 ### [List](https://developer.salesforce.com/docs/atlas.en-us.224.0.apexcode.meta/apexcode/langCon_apex_collections_lists.htm)
-Lists holds an __ordered__ collection of objects.      
+The simpliest type of collection. 
+Lists always have an __order__ of objects. Each member of the holds a specificposition.   
+They are useful when you want a simple way to store a group of values.    
+
  So __Lists in Apex are synonymous with arrays__ and the two can be used interchangeably. However creating list is easier than arrays.
  
 - To declare a list, use the `List` keyword followed by the primitive data, sObject, nested list, map, or __set type within `<>` characters__.
@@ -188,8 +195,11 @@ Lists holds an __ordered__ collection of objects.
 
 👈[back to contents](https://github.com/Klosmi/salesforce/blob/main/README.md#apex)
 
-### [Sets]()    
-A set is an __unordered__ collection of elements that do not contain any duplicates. Set elements can be of any data type—primitive types, collections, sObjects, user-defined types, and built-in Apex types.
+### [Sets]()   
+They qre very simiplqr to Lists with a couple of distinctions:   
+- sets are __unordered__ collection 
+- each memeber of a set is alwaysunique (do not contain any duplicates) 
+Sets are useful when we don't care about the order and we don't want to have duplicates.
 
   Declaring a `Set`:   
   `Set<Integer> setOfNumbers = new Set<Integer>();`
@@ -216,9 +226,21 @@ A set is an __unordered__ collection of elements that do not contain any duplica
 
 	
 ### [MAP]()  
-  we define datatype four 2 different elements.    
+  Maps are collection of key value pairs.
+  So, we define datatype four 2 different elements:    
   `Map< key, value> variable = new Map< key, value>();`    
-eg.:       
+	
+- eg.:    
+*Each employee has an ID and a Name*   
+| Id     | Name   |	
+|:-------|:-------|
+|760932  | Sandy  |
+|:-------|:-------|
+|760928  | Jose   |	
+|:-------|:-------|
+|760875  | Fatima |
+	
+- eg.:       
  *`.put()` method importing the value and the key.*      
  *For the `3` key we have a value `three` and a value `four`, therfore `three` is overwritten by `four`*     
   ```
@@ -591,15 +613,7 @@ modifiers specifies the accessibility or scope of a field, method, constructor, 
 
 [useful video]((https://www.youtube.com/watch?v=TCxOlvxT8l4))
 
----
 
-<br>
-
-👈[back to contents](https://github.com/Klosmi/salesforce/blob/main/README.md#apex)
-	
-## [Collections]()   
-A collection is a type of variable that can store multiple items.    
-So, collections are complex datatypes that store groupes of items and allow us to work on them together.
 
 ---
 
