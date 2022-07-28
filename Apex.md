@@ -927,7 +927,10 @@ Apex unit tests ensure high quality for your Apex code and let you meet requirem
 	*If we’re using a test class for unit testing only, declare it as private.*
 	
 - [`System.assertEquals()` method](https://www.levelupsalesforce.com/system-assertequals-in-apex)    
-    it lets us test acceptance criteria in our tests.
+    it lets us test acceptance criteria in our tests.   
+	```
+	assertEquals(Object expected, Object actual, object msg)
+	```
 ---
 
 <br>
