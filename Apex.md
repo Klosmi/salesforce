@@ -897,12 +897,13 @@ Changes can be: insertion, updating or deletion of records.
 
 👈[back to contents](https://github.com/Klosmi/salesforce/blob/main/README.md#apex)
 
-## [Testing](https://www.wisdomjobs.com/e-university/apex-tutorial-1026/apex-testing-17883.html)	   
+## [Testing](https://www.wisdomjobs.com/e-university/apex-tutorial-1026/apex-testing-17883.html)	 
+	
 Apex unit tests ensure high quality for your Apex code and let you meet requirements for deploying Apex.    
 	
-	- Apex code can be deployed to a production org from a sandbox.
-	- Apex unit tests are requirements for deploying and distributing Apex.
-	- Before you can deploy your code or package it for the Lightning Platform AppExchange, at least 75% of Apex code must be covered by tests, and all those tests must pass.    
+- Apex code can be deployed to a production org from a sandbox.
+- Apex unit tests are requirements for deploying and distributing Apex.
+- Before you can deploy your code or package it for the Lightning Platform AppExchange, at least 75% of Apex code must be covered by tests, and all those tests must pass.    
 
 #### Test Method Syntax
 ```
