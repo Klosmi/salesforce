@@ -924,7 +924,7 @@ Apex unit tests ensure high quality for your Apex code and let you meet requirem
 	    }
 	}
 	```
-	
+	*If we’re using a test class for unit testing only, declare it as private.*
 ---
 
 <br>
