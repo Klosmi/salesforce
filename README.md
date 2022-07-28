@@ -18,6 +18,8 @@
 [Static vs Instance variables and methods](https://github.com/Klosmi/salesforce/blob/main/Apex.md#methods)    
 [Pasing by Value vs Passing by Reference](https://github.com/Klosmi/salesforce/blob/main/Apex.md#static-vs-instance-variables-and-methods)    
 [Trigger](https://github.com/Klosmi/salesforce/blob/main/Apex.md#trigger)    
+[Testing](https://github.com/Klosmi/salesforce/blob/main/Apex.md#Testing)    
+
 
 <br>
 
