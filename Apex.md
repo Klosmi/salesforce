@@ -911,6 +911,19 @@ Apex unit tests ensure high quality for your Apex code and let you meet requirem
     // code_block
 }
 ```	
+
+- The visibility of a test method doesn’t matter, so declaring a test method as public or private doesn’t make a difference as the testing framework is always able to access test methods. For this reason, the access modifiers are omitted in the syntax
+
+- test methods must be defined in test classes, which are classes annotated with `@isTest`.
+
+	```
+	@isTest
+	private class MyTestClass {
+	    @isTest static void myTest() {
+		// code_block
+	    }
+	}
+	```
 	
 ---
 
