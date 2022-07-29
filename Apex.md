@@ -931,10 +931,10 @@ Apex unit tests ensure high quality for your Apex code and let you meet requirem
 	```
 	assertEquals(Object expected, Object actual, object msg)
 	```
-- The Difference between `System.assertEquals()` and `System.Assert()`:   
-	
-`System.Assert` __accepts only 2 parameters__, one (are mandatory) which is the condition to test for and the other a message (optional) to display should that condition be false.     
-`System.AssertEquals` and `System.AssertNotEquals` both accepts __3 parameters__: the first 2 (are mandatory) are the variables that will be tested for in/equality and the 3rd (optional) is the message to display if the assert results in false.
+- The Difference between `System.assertEquals()` and `System.Assert()`:     
+
+	`System.Assert` __accepts only 2 parameters__, one (are mandatory) which is the condition to test for and the other a message (optional) to display should that condition be false.     
+	`System.AssertEquals` and `System.AssertNotEquals` both accepts __3 parameters__: the first 2 (are mandatory) are the variables that will be tested for in/equality and the 3rd (optional) is the message to display if the assert results in false.
 ---
 
 <br>
