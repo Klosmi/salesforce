@@ -874,7 +874,7 @@ Changes can be: insertion, updating or deletion of records.
     }
     ```
 
-    *This trigger throws us an error when we try to create a newAccoubt with the same name (of an already existing account)*
+    *This trigger throws us an error when we try to create a newAccount with the same name (of an already existing account)*
     ```
     trigger AccountDuplication on Account (before insert) {
         // creating a for loop
