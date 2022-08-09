@@ -867,7 +867,7 @@ Apex triggers are a piece of code which enables users to perform custom actions 
 __A trigger executes before and after an event occurs on Salesfroce record.__    
 Changes can be: insertion, updating or deletion of records.    
 
-- a trigger definition starts with ètriggerè keyword, then the name of the trigger, then the Salesforce object that the trigger is associated with and last the trigger events.   
+- a trigger definition starts with __trigger__ keyword, then the name of the trigger, then the Salesforce object that the trigger is associated with and last the trigger events.   
     ```
     trigger TriggerNale on ObjectName (trigger_events) {
         // block of code
